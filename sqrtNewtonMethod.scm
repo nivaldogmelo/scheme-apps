@@ -11,6 +11,7 @@
       guess
       (sqrt-iter (improve guess x) x)))
 
+
 (define (improve guess x)
   (average guess (/ x guess)))
 
@@ -22,3 +23,7 @@
 
 (define (sqrt x)
   (sqrt-iter 1 x))
+
+(/ (sqrt 9) 1.0)
+
+(/ (sqrt 16) 1.0)
